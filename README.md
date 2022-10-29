@@ -1,2 +1,1 @@
-# frontend-mentor-order-summary-component
- 
+# Frontend Mentor: Order summary component
