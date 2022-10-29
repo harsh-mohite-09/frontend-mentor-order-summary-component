@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+body {
+  background-color: hsl(225, 100%, 94%);
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-blend-mode: normal;
+  height: 100vh;
+  display: flex;
+  font-family: "Red Hat Display";
+}
+
+.container {
+  width: 450px;
+  background-color: white;
+  margin: auto;
+  border-radius: 1.5em;
+  overflow: hidden;
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: inherit;
+}
+
+.header {
+  font-weight: 900;
+  font-size: 1.8em;
+}
+
+.info {
+  padding: 0 50px;
+  text-align: center;
+  margin-top: 0;
+  color: hsl(224, 23%, 55%);
+}
+
+.price {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  background-color: hsl(225, 100%, 98%);
+  padding: 20px 15px;
+  border-radius: 0.8em;
+}
+
+.plan-header,
+.price-value {
+  margin: 0;
+}
+
+.price-value {
+  color: hsl(224, 23%, 55%);
+}
+
+button {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  width: 80%;
+  height: 50px;
+  border-radius: 0.8em;
+  margin: 30px 0;
+  font-family: inherit;
+  font-weight: 700;
+  border: none;
+  box-shadow: 0px 30px 25px -8px rgba(56, 41, 224, 0.2);
+}
+
+.cancel {
+  margin-bottom: 40px;
+  text-decoration: none;
+  font-weight: 700;
+  color: hsl(224, 23%, 55%);
+}
+
+.plan-header {
+  font-weight: 900;
+  font-size: 1.1em;
+  margin-right: 80px;
+}
+
+.change {
+  font-weight: 700;
+  color: hsl(245, 75%, 52%);
+}
+
+button:hover {
+  background-color: #a78bfa;
+  cursor: pointer;
+}
+
+.cancel:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.change:hover {
+  text-decoration: none;
+  color: #a78bfa;
+}
